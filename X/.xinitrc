@@ -50,19 +50,19 @@ fi
 
 
 # warp-cli connect &
-xrandr --output eDP1 --auto --left-of DP1 &
-~/.dwm/dscripts/wallpaperslideshow.sh &
-/usr/bin/emacs --daemon &
-blueman-applet &
-aw-qt &
-~/.dwm/dscripts/mapwacom-tomgalvin.sh -d "Wacom One by Wacom S Pen stylus" -d "Wacom One by Wacom S Pen eraser" -s "DP1" &
+#xrandr --output eDP1 --auto --left-of DP1 &
+#~/.dwm/dscripts/wallpaperslideshow.sh &
+#/usr/bin/emacs --daemon &
+#blueman-applet &
+#aw-qt &
+#~/.dwm/dscripts/mapwacom-tomgalvin.sh -d "Wacom One by Wacom S Pen stylus" -d "Wacom One by Wacom S Pen eraser" -s "DP1" &
 
-sleep 3 && discord &
-sleep 4 && brave &
-sleep 5 && notion-app-enhanced &
-sleep 6 && brave --class=brave-aw --user-data-dir=$HOME/.config/bravedir/aw http://localhost:5600/#/activity/metalarc/view/ &
-sleep 7 && microsoft-edge-dev &
-sleep 8 && easyeffects &
+#sleep 3 && discord &
+#sleep 4 && brave &
+#sleep 5 && notion-app-enhanced &
+#sleep 6 && brave --class=brave-aw --user-data-dir=$HOME/.config/bravedir/aw http://localhost:5600/#/activity/metalarc/view/ &
+#sleep 7 && microsoft-edge-dev &
+#sleep 8 && easyeffects &
 #sleep 9 && spotify &
 
 while true; do
