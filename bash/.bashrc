@@ -6,7 +6,7 @@ export HISTCONTROL=ignoreboth:erasedups
 [[ $- != *i* ]] && return
 
 alias ls='ls -voahN --color=auto'
-PS1='ﱮ [\W] '
+PS1='al [\W] '
 
 export PATH=$PATH:/home/aman/.local/bin
 

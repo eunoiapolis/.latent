@@ -53,7 +53,7 @@ fi
 #xrandr --output eDP1 --auto --left-of DP1 &
 #~/.dwm/dscripts/wallpaperslideshow.sh &
 #/usr/bin/emacs --daemon &
-#blueman-applet &
+blueman-applet &
 #aw-qt &
 #~/.dwm/dscripts/mapwacom-tomgalvin.sh -d "Wacom One by Wacom S Pen stylus" -d "Wacom One by Wacom S Pen eraser" -s "DP1" &
 
@@ -65,10 +65,9 @@ fi
 #sleep 8 && easyeffects &
 #sleep 9 && spotify &
 
-while true; do
-	nm-applet &
-	/usr/bin/dunst &
-	picom --experimental-backends &
-	pa-applet &
-	exec i3
-done
+nm-applet &
+/usr/bin/dunst &
+pa-applet &
+xrandr --output Virtual-1 --mode 1920x1080 &
+#picom --experimental-backends &
+exec i3
